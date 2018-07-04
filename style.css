@@ -61,6 +61,11 @@ body {
     font-size: 2em;
 }
 
+.home__description {
+    margin-top: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
 .home__button {
     height: 3.75em;
     width: 12.5em;
@@ -77,6 +82,69 @@ body {
     background-color: #7cc576;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.services {
+    text-align: center;
+}
+
+.services__title {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.services__description {
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.services__item {
+    width: 90%;
+    margin: 0 auto 2em;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.relax {
+    background: url("img/relax-background.png") center center / cover;   
+    color: #fff;
+}
+
+.relax-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.relax__title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.title--green {
+    color: #7cc576;
+}
+
+.relax__description {
+    font-family: 'Roboto Slab', serif;
+}
+
+.relax-item {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.relax-item__description {
+    margin-left: 1em;
+}
+
+.relax__button {
+    width: 170px;
+    height: 64px;
+    color: #fff;
+    font-weight: 700;
+    margin: 3em 0;
 }
 
 .visuallyhidden {
