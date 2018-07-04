@@ -7,11 +7,12 @@ html {
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
 }
 
-
-.f {
+.site-header-wrapper {
+    text-transform: uppercase;
     display: flex;
     flex-direction: column;
 }
@@ -22,17 +23,60 @@ body {
     align-items: center;
 }
 
+.site-header__title {
+    font-size: 1em;
+    color: #555;
+    font-weight: 700;
+}
+
 .site-nav__list {
     display: flex;
     list-style: none;
     flex-direction: column;
     align-items: center;
     padding: 0;
+    margin-bottom: 2em;
+}
+
+.site-nav__item {
+    margin-top: 0.5em;
+    border-bottom: 1px solid #777;
 }
 
 .site-nav__link {
-    color: black;
+    color: #777;
     text-decoration: none;
+}
+
+.home {
+    padding: 2em 0 4em;
+    text-align: center;
+    color: #fff;
+    background: url(img/home-background.png) center center / cover;
+}
+
+.home__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.home__button {
+    height: 3.75em;
+    width: 12.5em;
+    font-weight: 700;
+    color: #fff;
+    margin: 2em auto 0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    background-color: #7cc576;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .visuallyhidden {
@@ -45,4 +89,3 @@ body {
     position: absolute;
     width: 1px;
 }
-
