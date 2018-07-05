@@ -192,7 +192,6 @@ body {
 
 .project-item__description {
     color: #777;
-    
     font-family: 'Roboto Slab', serif;
 }
 
@@ -210,6 +209,97 @@ body {
 
 .values {
     background-color: #f9f9f9;
+    text-align: center;
+}
+
+.values__title {
+    text-transform: uppercase;
+    padding-top: 1em;
+    margin-bottom: 0;
+}
+
+.values__description {
+    margin: 0 auto 2em;
+    color: #777;
+    font-family: 'Roboto Slab', serif;
+}
+
+.value-item__title {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.value-item__description {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+.value-item {
+    width: 90%;
+    margin: 0 auto 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.next-project {
+    background-color: #7cc576;
+    text-align: center;
+    padding: 1em 0 2em;
+}
+
+.next-project__title {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.next-project__button {
+    width: 180px;
+    height: 53px;
+    color: #fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.logos__item {
+    margin-bottom: 1em;
+}
+
+.contact {
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-column {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0 0;
+}
+
+.contact-column__title {
+    text-transform: uppercase;
+}
+
+.contact-column__item {
+    display: flex;
+    align-items: flex-start;
+    margin: 1em 0 0;
+}
+
+.icon__wrapper {
+    flex-basis: 2.5em;
+}
+
+.icon-twitter {
+    margin-right: 1.2em;
 }
 
 .visuallyhidden {
