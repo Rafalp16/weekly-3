@@ -147,6 +147,12 @@ body {
     text-align: center;
 }
 
+@media (min-width: 56.25em) {
+    .services {
+         margin: 4em auto;
+    }
+}
+
 .services__title {
     text-transform: uppercase;
     margin-bottom: 0;
@@ -156,12 +162,47 @@ body {
     margin-top: 0;
     margin-bottom: 2em;
     font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+@media (min-width: 56.25em) {
+    .services__description {
+        margin-bottom: 5em;
+    }
+}
+.item__title {
+    text-transform: uppercase;
+}
+
+.services-item__description {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+@media (min-width: 56.25em) {
+    .services-item__description {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 56.25em) {
+    .services__items {
+        display: flex;
+        max-width: 70em;
+        margin: 0 auto;
+    }
 }
 
 .services__item {
-    width: 90%;
     margin: 0 auto 2em;
     border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+@media (min-width: 56.25em) {
+    .services__item {
+        border-bottom: none;
+        width: 30%;   
+    }
 }
 
 .relax {
