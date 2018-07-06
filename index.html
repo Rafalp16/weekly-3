@@ -9,19 +9,19 @@
         <title>WebDev #3</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css"> 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto+Slab" rel="stylesheet"> 
     </head>
     <body>
-        <header class="site-header-wrapper">
-            <div class="site-header">
+        <header class="site-header">
+            <div class="site-header__logo">
                 <a href="#">
-                    <img src="img/logo.png" class="site-header__logo" width="29px" height="29px">
+                    <img src="img/logo.png" alt="">
                 </a>
                 <h1 class="site-header__title">
-                    <a href="#" class="title__link">Treehouse</a>
+                    <a href="#" class="site-header__link">Treehouse</a>
                 </h1>
             </div>
-            <nav class="site-nav" id="site-nav">
+            <nav class="site-header__site-nav">
                 <ul class="site-nav__list">
                     <li class="site-nav__item"><a href="#" class="site-nav__link">Home</a></li>
                     <li class="site-nav__item"><a href="#" class="site-nav__link">About</a></li>
@@ -32,34 +32,34 @@
             </nav>
         </header>
         <section class="home">
-            <h1 class="home__title">creative digital solutions</h1>
+            <h2 class="home__title">creative digital solutions</h2>
             <p class="home__description">Proin iaculis purus consequat sem cure.</p>
             <a href="#" class="home__button button">view portfolio</a>
         </section>
         <section class="services">
-            <h1 class="services__title">professional services</h1>
+            <h2 class="services__title">professional services</h2>
             <p class="services__description">Proin iaculis purus consequat sem cure</p>
             <div class="services__items">
-                <section class="services__item">
+                <section class="services__services-item">
                     <img src="img/services_1.png" alt="">
-                    <h2 class="item__title">beautiful designs</h2>
+                    <h2 class="services-item__title">beautiful designs</h2>
                     <p class="services-item__description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                 </section>
-                <section class="services__item">
+                <section class="services__services-item">
                     <img src="img/services_2.png" alt="">
-                    <h2 class="item__title">responsive web</h2>
+                    <h2 class="services-item__title">responsive web</h2>
                     <p class="services-item__description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                 </section>
-                <section class="services__item">
+                <section class="services__services-item">
                     <img src="img/services_3.png" alt="">
-                    <h2 class="item__title">marketing tools</h2>
+                    <h2 class="services-item__title">marketing tools</h2>
                     <p class="services-item__description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                 </section>
             </div>
         </section>
         <section class="relax">
             <div class="relax-wrapper">
-                <h1 class="relax__title">Just relax <span class="title--green">&amp;</span> let us do the heavy lifting</h1>
+                <h2 class="relax__title">Just relax <span class="title--green">&amp;</span> let us do the heavy lifting</h2>
                 <p class="relax__description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                 <div class="relax-item">
                     <img src="img/chceckmark.png" alt="">
@@ -78,7 +78,7 @@
         </section>
         <section class="project">
             <header>
-                <h1 class="project-header__title">latest project</h1>
+                <h2 class="project-header__title">latest project</h2>
                 <p class="project-header__description">Proin iaculis purus consequat sem cure</p>
             </header>
             <section class="project-body">
@@ -141,10 +141,10 @@
             <a href="#" class="next-project__button button">contact us</a>
         </section>
         <section class="logos">
-            <img src="img/logos_1.png" alt="envato" class="logos__item">
-            <img src="img/logos_2.png" alt="wordpress" class="logos__item">
-            <img src="img/logos_3.png" alt="ae tuts+" class="logos__item">
-            <img src="img/logos_4.png" alt="microlancer" class="logos__item">
+            <img src="img/logos_1.png" alt="envato" class="logos__image">
+            <img src="img/logos_2.png" alt="wordpress" class="logos__image">
+            <img src="img/logos_3.png" alt="ae tuts+" class="logos__image">
+            <img src="img/logos_4.png" alt="microlancer" class="logos__image">
         </section>
         <section class="contact">
             <div class="contact-wrapper">
@@ -176,33 +176,33 @@
                     <div class="contact-column__body">
                         <div class="contact-column__item">
                             <div class="icon__wrapper">
-                                <img src="img/contact_4.png" alt="post" class="item__icon">
+                                <img src="img/contact_4.png" alt="" class="item__icon">
                             </div>
-                            <span class="item__description">Made With Love In Toronto</span>
+                            <a href="#" class="item__description">Made With Love In Toronto</a>
                         </div>
                         <div class="contact-column__item">
                             <div class="icon__wrapper">
-                                <img src="img/contact_5.png" alt="post" class="item__icon">
+                                <img src="img/contact_5.png" alt="" class="item__icon">
                             </div>
-                            <span class="item__description">Startup News &amp; Emerging Tech</span>
+                            <a href="#" class="item__description">Startup News &amp; Emerging Tech</a>
                         </div>
                         <div class="contact-column__item">
                             <div class="icon__wrapper">
-                                <img src="img/contact_4.png" alt="post" class="item__icon">
+                                <img src="img/contact_4.png" alt="" class="item__icon">
                             </div>
-                            <span class="item__description">Bitcoin Will Soon Rule The World</span>
+                            <a href="#" class="item__description">Bitcoin Will Soon Rule The World</a>
                         </div>
                         <div class="contact-column__item">
                             <div class="icon__wrapper">
-                                <img src="img/contact_4.png" alt="post" class="item__icon">
+                                <img src="img/contact_4.png" alt="" class="item__icon">
                             </div>
-                            <span class="item__description">Wearable Technology On The Rise</span>
+                            <a href="#" class="item__description">Wearable Technology On The Rise</a>
                         </div>
                         <div class="contact-column__item">
                             <div class="icon__wrapper">
-                                <img src="img/contact_6.png" alt="post" class="item__icon">
+                                <img src="img/contact_6.png" alt="" class="item__icon">
                             </div>
-                            <span class="item__description">Learn Web Design In 30 Days!</span>
+                            <a href="#" class="item__description">Learn Web Design In 30 Days!</a>
                         </div>
                     </div>
                 </div>
@@ -211,11 +211,11 @@
                     <div class="contact-column__body">
                         <div class="contact-column__item">
                             <img src="img/contact_7.png" alt="twitter" class="icon-twitter"> 
-                            <span class="item__description">Confucius: Life is really simple, but we insist on making it complicated.</span>
+                            <a href="#" class="item__description">Confucius: Life is really simple, but we insist on making it complicated.</a>
                         </div>
                         <div class="contact-column__item">
                             <img src="img/contact_7.png" alt="twitter" class="icon-twitter">
-                            <span class="item__description">Grab the Free Treehouse web template at FreebiesXpress!</span>
+                            <a href="#" class="item__description">Grab the Free Treehouse web template at FreebiesXpress!</a>
                         </div>
                     </div>
                 </div>
@@ -224,12 +224,19 @@
         <footer class="site-footer">
             <small class="site-footer__copyright">&copy; Copyright 2014 FreebiesXpress.com</small>
             <div>
-                <img src="img/footer_1.png" alt="twitter">
-                <img src="img/footer_2.png" alt="facebook">
-                <img src="img/footer_3.png" alt="pinterest">
-                <img src="img/footer_4.png" alt="google+">
+                <a href="#">
+                    <img src="img/footer_1.png" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="img/footer_2.png" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="img/footer_3.png" alt="pinterest">
+                </a>
+                <a href="#">
+                    <img src="img/footer_4.png" alt="google+">
+                </a>
             </div>
         </footer>
-        <script src="script.js"></script>
     </body>
 </html>
