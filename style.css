@@ -27,17 +27,15 @@ body {
     }
 }
 
-.site-header__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .site-header__title {
     font-size: 1em;
 }
 
 .site-header__link {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #555;
 }
@@ -117,7 +115,6 @@ body {
 
 .home__description {
     margin-top: 0;
-    font-family: 'Roboto Slab', serif;
 }
 
 .home__button {
@@ -162,7 +159,6 @@ body {
 .services__description {
     margin-top: 0;
     margin-bottom: 2em;
-    font-family: 'Roboto Slab', serif;
     color: #777;
 }
 
@@ -172,19 +168,12 @@ body {
     }
 }
 
-@media (min-width: 56.25em) {
-    .services-item__image {
-        height: 3em;
-    }
-}
-
 .services-item__title {
     text-transform: uppercase;
     font-size: 1.5em;
 }
 
 .services-item__description {
-    font-family: 'Roboto Slab', serif;
     color: #777;
 }
 
@@ -248,7 +237,6 @@ body {
 }
 
 .relax__description {
-    font-family: 'Roboto Slab', serif;
     color: #ccc;
 }
 
@@ -265,7 +253,6 @@ body {
 .relax-item {
     display: flex;
     align-items: center;
-    font-family: 'Roboto Slab', serif;
     padding: 0.2em;
     color: #ccc;
 }
@@ -304,7 +291,6 @@ body {
 
 .project-header__description {
     text-align: center;
-    font-family: 'Roboto Slab', serif;
     margin-top: 0;
     color: #777;
 }
@@ -331,7 +317,6 @@ body {
 .project-body__description {
     margin-top: 0;
     color: #777;
-    font-family: 'Roboto Slab', serif;
 }
 
 @media (min-width: 56.25em) {
@@ -374,7 +359,6 @@ body {
         
 .project-item__description {
     color: #777;
-    font-family: 'Roboto Slab', serif;
 }
 
 @media (min-width: 56.25em) {
@@ -385,7 +369,6 @@ body {
         
 .project-body__footer {
     color: #777;
-    font-family: 'Roboto Slab', serif;
 }
 
 @media (min-width: 56.25em) {
@@ -402,7 +385,7 @@ body {
 }
 
 .project-body__link:hover, .project-body__link:focus {
-    color: #000;
+    border-bottom: 2px solid #7cc576;
 }
 
 .values {
@@ -438,7 +421,6 @@ body {
 .values__description {
     margin: 0 auto 2em;
     color: #777;
-    font-family: 'Roboto Slab', serif;
 }
 
 .value-item__title {
@@ -447,7 +429,6 @@ body {
 }
 
 .value-item__description {
-    font-family: 'Roboto Slab', serif;
     color: #777;
 }
 
@@ -551,19 +532,26 @@ body {
     text-transform: uppercase;
 }
 
+.contact-column__body {
+    padding-left: 0;
+}
+
 .contact-column__item {
     display: flex;
     align-items: flex-start;
     margin: 1em 0 0;
 }
 
-.icon__wrapper {
+.icon-wrapper {
     flex-basis: 2.2em;
     flex-shrink: 0;
 }
 
+.icon {
+    flex-shrink: 0;
+}
+
 .item__description {
-    font-family: 'Roboto Slab', serif;
     text-decoration: none;
     color: #fff;
 }
@@ -599,6 +587,14 @@ body {
     width: 12em;
 }
 
+.site-footer__link:hover, .site-footer__link:focus {
+    border-bottom: 3px solid #777;
+}
+
+.side-font {
+    font-family: 'Roboto Slab', serif;
+}
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -609,3 +605,39 @@ body {
     position: absolute;
     width: 1px;
 }
+
+.logos-2, .logos-4, .logos-1, .logos-3, .values-1, 
+.values-2, .values-3, .project-1, .project-2, .project-3, 
+.services-3, .services-1, .footer-1, .footer-2, .footer-3, 
+.footer-4, .services-2, .checkmark, .logo, .contact-4, 
+.contact-5, .contact-3, .contact-7, .contact-1, .contact-2, 
+.contact-6, .arrow
+{ display: inline-block; background: url('img/spritesheet.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.logos-2 { background-position: -0px -0px; width: 186px; height: 42px; }
+.logos-4 { background-position: -0px -42px; width: 167px; height: 42px; }
+.logos-1 { background-position: -0px -84px; width: 161px; height: 30px; }
+.logos-3 { background-position: -0px -114px; width: 131px; height: 41px; }
+.values-1 { background-position: -0px -155px; width: 91px; height: 91px; }
+.values-2 { background-position: -91px -155px; width: 91px; height: 91px; }
+.values-3 { background-position: -0px -246px; width: 91px; height: 91px; }
+.project-1 { background-position: -91px -246px; width: 73px; height: 74px; }
+.project-2 { background-position: -91px -320px; width: 73px; height: 74px; }
+.project-3 { background-position: -0px -337px; width: 73px; height: 74px; }
+.services-3 { background-position: -73px -394px; width: 55px; height: 44px; }
+.services-1 { background-position: -128px -394px; width: 54px; height: 48px; }
+.footer-1 { background-position: -0px -411px; width: 41px; height: 41px; }
+.footer-2 { background-position: -41px -438px; width: 41px; height: 41px; }
+.footer-3 { background-position: -82px -438px; width: 41px; height: 41px; }
+.footer-4 { background-position: -123px -442px; width: 41px; height: 41px; }
+.services-2 { background-position: -0px -452px; width: 40px; height: 52px; }
+.checkmark { background-position: -131px -114px; width: 33px; height: 32px; }
+.logo { background-position: -40px -479px; width: 29px; height: 29px; }
+.contact-4 { background-position: -41px -411px; width: 26px; height: 21px; }
+.contact-5 { background-position: -69px -479px; width: 26px; height: 23px; }
+.contact-3 { background-position: -161px -84px; width: 25px; height: 16px; }
+.contact-7 { background-position: -95px -479px; width: 24px; height: 18px; }
+.contact-1 { background-position: -119px -483px; width: 23px; height: 31px; }
+.contact-2 { background-position: -164px -114px; width: 20px; height: 31px; }
+.contact-6 { background-position: -167px -42px; width: 18px; height: 21px; }
+.arrow { background-position: -167px -63px; width: 15px; height: 12px; }
