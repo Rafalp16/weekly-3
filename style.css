@@ -33,11 +33,20 @@ body {
 
 .site-header__link {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     color: #555;
+    margin: 0 auto;
+    width: 9em;
+}
+
+.site-header__link::before {
+    content: "";
+    background: url('img/spritesheet.png') no-repeat; 
+    background-position: -40px -479px; 
+    width: 29px; 
+    height: 29px;
 }
 
 .site-nav__list {
@@ -275,7 +284,7 @@ body {
 
 @media (min-width: 56.25em) {
     .project {
-        height: 51.5625em;
+        height: 54em;
         background: url(img/project-background-desktop.png) center center / cover;
     }
 }
@@ -289,7 +298,8 @@ body {
 
 @media (min-width: 56.25em) {
     .project-header__title {
-        margin-top: 2em;
+        padding-top: 2em;
+        margin-top: 0;
     }
 }
 
@@ -566,7 +576,7 @@ body {
     color: #fff;
 }
 
-.item__description:hover, .item__description:focus {
+.item__link:hover, item__link:focus {
     border-bottom: 1px solid #fff;
 }
 
@@ -616,7 +626,7 @@ body {
     width: 1px;
 }
 
-.logos-2, .logos-4, .logos-1, .logos-3, .values-1, 
+.logos-2, .logos-4, .logo-envato, .logos-3, .values-1, 
 .values-2, .values-3, .project-1, .project-2, .project-3, 
 .services-3, .services-1, .footer-1, .footer-2, .footer-3, 
 .footer-4, .services-2, .checkmark, .logo, .contact-4, 
@@ -626,7 +636,7 @@ body {
  
 .logos-2 { background-position: -0px -0px; width: 186px; height: 42px; }
 .logos-4 { background-position: -0px -42px; width: 167px; height: 42px; }
-.logos-1 { background-position: -0px -84px; width: 161px; height: 30px; }
+.logo-envato { background-position: -0px -84px; width: 161px; height: 30px; }
 .logos-3 { background-position: -0px -114px; width: 131px; height: 41px; }
 .values-1 { background-position: -0px -155px; width: 91px; height: 91px; }
 .values-2 { background-position: -91px -155px; width: 91px; height: 91px; }
