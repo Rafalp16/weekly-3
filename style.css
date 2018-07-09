@@ -204,6 +204,10 @@ body {
     }
 }
 
+.services-item__icon-wrapper {
+    height: 3em;
+}
+
 .relax {
     background: url("img/relax-background.png") center center / cover;   
     color: #fff;
@@ -418,6 +422,12 @@ body {
     margin-bottom: 0;
 }
 
+@media (min-width: 56.25em) {
+    .values__title {
+        font-size: 2em;
+    }
+}
+
 .values__description {
     margin: 0 auto 2em;
     color: #777;
@@ -425,7 +435,7 @@ body {
 
 .value-item__title {
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 
 .value-item__description {
@@ -624,13 +634,13 @@ body {
 .project-1 { background-position: -91px -246px; width: 73px; height: 74px; }
 .project-2 { background-position: -91px -320px; width: 73px; height: 74px; }
 .project-3 { background-position: -0px -337px; width: 73px; height: 74px; }
-.services-3 { background-position: -73px -394px; width: 55px; height: 44px; }
 .services-1 { background-position: -128px -394px; width: 54px; height: 48px; }
+.services-2 { background-position: -0px -452px; width: 40px; height: 52px; }
+.services-3 { background-position: -73px -394px; width: 55px; height: 44px; }
 .footer-1 { background-position: -0px -411px; width: 41px; height: 41px; }
 .footer-2 { background-position: -41px -438px; width: 41px; height: 41px; }
 .footer-3 { background-position: -82px -438px; width: 41px; height: 41px; }
 .footer-4 { background-position: -123px -442px; width: 41px; height: 41px; }
-.services-2 { background-position: -0px -452px; width: 40px; height: 52px; }
 .checkmark { background-position: -131px -114px; width: 33px; height: 32px; }
 .logo { background-position: -40px -479px; width: 29px; height: 29px; }
 .contact-4 { background-position: -41px -411px; width: 26px; height: 21px; }
