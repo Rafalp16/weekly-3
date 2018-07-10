@@ -12,47 +12,51 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto+Slab" rel="stylesheet"> 
     </head>
     <body>
+         <div class="pusher-wrapper">
+            <button class="nav-toggler" id="nav-toggler">
+                <span class="visuallyhidden">open menu</span>
+            </button>
         <header class="site-header">
             <h1 class="site-header__title">
                 <a href="#" class="site-header__link">Treehouse</a>
             </h1>
-            <nav class="site-header__site-nav">
+            <nav class="site-nav" id="nav">
                 <ul class="site-nav__list">
-                    <li class="site-nav__item"><a href="#" class="site-nav__link">Home</a></li>
-                    <li class="site-nav__item"><a href="#" class="site-nav__link">About</a></li>
-                    <li class="site-nav__item"><a href="#" class="site-nav__link">Blog</a></li>
-                    <li class="site-nav__item"><a href="#" class="site-nav__link">Portfolio</a></li>
-                    <li class="site-nav__item"><a href="#" class="site-nav__link">Contact</a></li>
+                    <li class="site-nav__item"><a href="#home" class="site-nav__link">Home</a></li>
+                    <li class="site-nav__item"><a href="#about" class="site-nav__link">About</a></li>
+                    <li class="site-nav__item"><a href="#home" class="site-nav__link">Blog</a></li>
+                    <li class="site-nav__item"><a href="#portfolio" class="site-nav__link">Portfolio</a></li>
+                    <li class="site-nav__item"><a href="#contact" class="site-nav__link">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <div class="pusher">
         <main>
-            <section class="home">
+            <section class="home" id="home">
                 <h2 class="home__title">creative digital solutions</h2>
                 <p class="home__description side-font">Proin iaculis purus consequat sem cure.</p>
                 <a href="#" class="home__button button">view portfolio</a>
             </section>
-            <section class="services">
+            <section class="services" id="about">
                 <h2 class="services__title">professional services</h2>
-                <p class="services__description side-font">Proin iaculis purus consequat sem cure</p>
                 <div class="services__items">
                     <div class="services__services-item">
                         <div class="services-item__icon-wrapper">
-                            <span class="services-1"></span>
+                            <span class="icon-heart"></span>
                         </div>
                         <h3 class="services-item__title">beautiful designs</h3>
                         <p class="services-item__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </div>
                     <div class="services__services-item">
                         <div class="services-item__icon-wrapper">
-                            <div class="services-2"></div>
+                            <span class="icon-tablet"></span>
                         </div>
                         <h3 class="services-item__title">responsive web</h3>
                         <p class="services-item__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </div>
                     <div class="services__services-item">
                         <div class="services-item__icon-wrapper">
-                            <div class="services-3"></div>
+                            <span class="icon-marketing"></span>
                         </div>
                         <h3 class="services-item__title">marketing tools</h3>
                         <p class="services-item__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
@@ -65,22 +69,22 @@
                     <p class="relax__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     <ul class="relax-list">
                         <li class="relax-item">
-                            <div class="checkmark"></div>
+                            <span class="checkmark relax-item__icon"></span>
                             <span class="relax-item__description side-font">Initial Setup &amp; Customizations</span>
                         </li >
                         <li class="relax-item">
-                            <div class="checkmark"></div>
+                            <span class="checkmark relax-item__icon"></span>
                             <span class="relax-item__description side-font">Regular Updates</span>
                         </li>
                         <li class="relax-item">
-                            <div class="checkmark"></div>
+                            <span class="checkmark relax-item__icon"></span>
                             <span class="relax-item__description side-font">Round The Clock Support</span>
                         </li>
                     </ul>
                     <a href="#" class="relax__button button">learn more</a>
                 </div>
             </section>
-            <section class="project">
+            <section class="project" id="portfolio">
                 <header>
                     <h2 class="project-header__title">latest project</h2>
                     <p class="project-header__description side-font">Proin iaculis purus consequat sem cure</p>
@@ -90,21 +94,21 @@
                     <p class="project-body__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                      <ul class="project-list">
                         <li class="project-item">
-                            <div class="project-1"></div>
+                            <span class="icon-shopping"></span>
                             <div>
                                 <h3 class="project-item__title">E-Commerce Ready</h3>
                                 <span class="project-item__description side-font">Proin iaculis purus consequat sem cure digni ssim.</span>
                             </div>
                         </li >
                         <li class="project-item">
-                            <div class="project-2"></div>
+                            <span class="icon-seo"></span>
                             <div>
                                 <h3 class="project-item__title">Powerful SEO Features</h3>
                                 <span class="project-item__description side-font">Proin iaculis purus consequat sem cure.</span>
                             </div>
                          </li>
                         <li class="project-item">
-                            <div class="project-3"></div>
+                            <span class="icon-security"></span>
                             <div>
                                 <h3 class="project-item__title">Secure Encryption</h3>
                                 <span class="project-item__description side-font">Proin iaculis purus consequat sem cure iaculis purus.</span>
@@ -122,21 +126,21 @@
                 <p class="values__description side-font">Proin iaculis purus consequat sem cure.</p>
                 <ul class="value-list">
                     <li class="value-item">
-                        <div class="values-1"></div>
+                        <span class="icon-music"></span>
                     <div>
                         <h3 class="value-item__title">work-life balance</h3>
                         <span class="value-item__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</span>
                     </div>
                     </li >
                     <li class="value-item">
-                        <div class="values-2"></div>
+                        <span class="icon-quality"></span>
                     <div>
                         <h3 class="value-item__title">quality over quantity</h3>
                         <span class="value-item__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</span>
                     </div>
                      </li>
                     <li class="value-item">
-                        <div class="values-3"></div>
+                        <span class="icon-star"></span>
                     <div>
                         <h3 class="value-item__title">deliver excellence</h3>
                         <span class="value-item__description side-font">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</span>
@@ -152,74 +156,84 @@
                 <h2 class="visuallyhidden">logos section</h2>
                 <ul class="logos-list">
                     <li>
-                        <div class="logo-envato logos__image"></div>
+                        <span class="logo-envato logos__image"></span>
+                        <span class="visuallyhidden">envato</span>
                     </li>
                     <li>
-                        <div class="logos-2 logos__image"></div>
+                        <span class="logo-wordpress logos__image"></span>
+                        <span class="visuallyhidden">wordpress</span>
                     </li>
                     <li>
-                        <div class="logos-3 logos__image"></div>
+                        <span class="logo-aetuts logos__image"></span>
+                        <span class="visuallyhidden">ae tuts+</span>
                     </li>
                     <li>
-                        <div class="logos-4 logos__image"></div>
+                        <span class="logo-microlancer logos__image"></span>
+                        <span class="visuallyhidden">microlancer</span>
                     </li>
                 </ul>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="contact-wrapper">
                     <div class="contact-column">
                         <h3 class="contact-column__title">contact us</h3>
-                        <ul class="contact-column__body side-font">
-                            <li class="contact-column__item">
-                                <div class="icon-wrapper">
-                                    <div class="contact-1 icon"></div>
-                                </div>
-                                <span class="item__description">55 Main St. <br>Toronto, ON <br>M1H 3A5</span>
-                            </li>
-                            <li class="contact-column__item">
-                                <div class="icon-wrapper">
-                                    <div class="contact-2 icon"></div>
-                                </div>
-                                <span class="item__description">(416) 555-5252</span>
-                            </li>
-                            <li class="contact-column__item">
-                                <div class="icon-wrapper">
-                                    <div class="contact-3 icon"></div>
-                                </div>
-                                <span class="item__description">hello@treehouse.com</span>
-                            </li>
-                        </ul>
+                        <address>
+                            <ul class="contact-column__body side-font">
+                                <li class="contact-column__item">
+                                    <div class="icon-wrapper">
+                                        <span class="contact-icon-location icon"></span>
+                                    </div>
+                                    <span class="item__description">55 Main St. <br>Toronto, ON <br>M1H 3A5</span>
+                                </li>
+                                <li class="contact-column__item">
+                                    <div class="icon-wrapper">
+                                        <span class="contact-icon-phone icon"></span>
+                                    </div>
+                                    <span class="item__description">
+                                        <a href="tel:4165555252" class="item__link">(416) 555-5252</a>
+                                    </span>
+                                </li>
+                                <li class="contact-column__item">
+                                    <div class="icon-wrapper">
+                                        <span class="contact-icon-mail icon"></span>
+                                    </div>
+                                    <span class="item__description">   
+                                        <a href="mailto:hello@treehouse.com" class="item__link">hello@treehouse.com</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </address>
                     </div>
                     <div class="contact-column">
                         <h3 class="contact-column__title">latest posts</h3>
                         <ul class="contact-column__body side-font">
                             <li class="contact-column__item">
                                 <div class="icon-wrapper">
-                                    <div class="contact-4 icon"></div>
+                                    <span class="post-text-icon icon"></span>
                                 </div>
                                 <a href="#" class="item__description item__link">Made With Love In Toronto</a>
                             </li>
                             <li class="contact-column__item">
                                 <div class="icon-wrapper">
-                                    <div class="contact-5 icon"></div>
+                                    <span class="post-image-icon icon"></span>
                                 </div>
                                 <a href="#" class="item__description item__link">Startup News &amp; Emerging Tech</a>
                             </li>
                             <li class="contact-column__item">
                                 <div class="icon-wrapper">
-                                    <div class="contact-4 icon"></div>
+                                    <span class="post-text-icon icon"></span>
                                 </div>
                                 <a href="#" class="item__description item__link">Bitcoin Will Soon Rule The World</a>
                             </li>
                             <li class="contact-column__item">
                                 <div class="icon-wrapper">
-                                    <div class="contact-4 icon"></div>
+                                    <span class="post-text-icon icon"></span>
                                 </div>
                                 <a href="#" class="item__description item__link">Wearable Technology On The Rise</a>
                             </li>
                             <li class="contact-column__item">
                                 <div class="icon-wrapper">
-                                    <div class="contact-6 icon"></div>
+                                    <span class="post-movie-icon icon"></span>
                                 </div>
                                 <a href="#" class="item__description item__link">Learn Web Design In 30 Days!</a>
                             </li>
@@ -230,13 +244,13 @@
                         <ul class="contact-column__body side-font">
                             <li class="contact-column__item">
                                 <div class="icon-wrapper">
-                                    <div class="contact-7 icon"></div>
+                                    <span class="icon-twitter icon"></span>
                                 </div>
                                 <a href="#" class="item__description item__link">Confucius: Life is really simple, but we insist on making it complicated.</a>
                             </li>
                             <li class="contact-column__item">
                                 <div class="icon-wrapper">
-                                    <div class="contact-7 icon"></div>
+                                    <span class="icon-twitter icon"></span>
                                 </div>
                                 <a href="#" class="item__description item__link">Grab the Free Treehouse web template at FreebiesXpress!</a>
                             </li>
@@ -250,25 +264,32 @@
             <ul class="site-footer__list">
                 <li>
                     <a href="#" class="site-footer__link">
-                        <div class="footer-1"></div>
+                        <span class="social-icon-twitter"></span>
+                        <span class="visuallyhidden">twitter link</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="site-footer__link">
-                        <div class="footer-2"></div>
+                        <span class="social-icon-facebook"></span>
+                        <span class="visuallyhidden">facebook link</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="site-footer__link">
-                        <div class="footer-3"></div>
+                        <span class="social-icon-pinterest"></span>
+                        <span class="visuallyhidden">pinterest link</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="site-footer__link">
-                        <div class="footer-4"></div>
+                        <span class="social-icon-googleplus"></span>
+                        <span class="visuallyhidden">google+  link</span>
                     </a>
                 </li>
             </ul>
         </footer>
+             </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
